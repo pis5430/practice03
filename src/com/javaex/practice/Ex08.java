@@ -9,11 +9,20 @@ public class Ex08 {
 		int num;
 		
 		
-		for(dan=2; dan<=9; dan++) {
+		for(num=1; num<=9; num++) {
 			
-			for(num=1; num<=9; num++ ) {
+			System.out.println("");
+			
+			for(dan=2; dan<=9; dan++ ) {
 				
-				System.out.println(dan +"*" +num + "=" + (dan*num) );
+				System.out.print(dan +"*" +num + "=" + (dan*num) );
+				
+				if ((dan*num) >= 10) {
+					
+					System.out.print("  ");
+				} else {
+					System.out.print("   ");
+				}
 				
 			}
 			
