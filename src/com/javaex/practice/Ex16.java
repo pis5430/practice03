@@ -18,7 +18,7 @@ public class Ex16 {
 			
 			if(i%5==0 && i!=0) { //5의 배수
 				
-				System.out.println(i + "입니다.");
+				System.out.println(i + "입니다."); //5의배수 확인
 				
 				j++; //5의 배수 개수
 				
