@@ -14,6 +14,8 @@ public class Ex15 {
 			
 			if(num%i==0) {
 				System.out.println(i);
+			}else {
+				
 			}
 		}
 
