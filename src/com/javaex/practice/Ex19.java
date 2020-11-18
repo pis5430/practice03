@@ -45,6 +45,8 @@ public class Ex19 {
 
 				
 			}
+			
+			sc.close();
 		}
 		
 		
